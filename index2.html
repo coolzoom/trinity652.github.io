@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      
+        StartUp &middot; 
+      
+    </title>
+
+    
+      <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+      <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+      <link href="assets/css/application-startup.css" rel="stylesheet">
+    
+
+    
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      /* …curses ios, etc… */
+      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          width: 1px;
+          min-width: 100%;
+          *width: 100%;
+        }
+        #stage {
+          height: 1px;
+          overflow: auto;
+          min-height: 100vh;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+    </style>
+  </head>
+
+
+<body>
+
+<div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+    <ul class="nav nav-bordered nav-stacked">
+        <li class="nav-header">Who Are We</li>
+    <li class="active">
+         <a href="">About Us</a>
+    </li>
+    <li>
+      <a href="">Our Team</a>
+    </li>
+    <li>
+        <a href="bold/index.html">Volunteer</a>
+    </li>
+    <li class="nav-divider"></li>
+    <li class="nav-header">Projects</li>
+    <li>
+      <a href="docs/index.html">PMKSY</a>
+    </li>
+    <li>
+      <a href="http://getbootstrap.com">Anvita</a>
+    </li>
+  </ul>
+</div>
+
+<div class="stage" id="stage">
+  
+  <div class="block block-inverse block-fill-height app-header"
+       style="background-image: url(assets/img/startup-1.jpg);">
+  
+    <nav class="navbar navbar-transparent navbar-fixed-top navbar-padded app-navbar p-t-md">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed p-x-0"
+                data-target="#stage" data-toggle="stage" data-distance="-250">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="">
+          <strong style="background:transparent; padding: 12px; border-radius: 4px; color: #2AD14E;">
+            Grameen Vikas Kendram
+          </strong>
+        </a>
+      </div>
+      <div class="navbar-collapse collapse text-uppercase">
+        <ul class="nav navbar-nav navbar-right">
+          <li >
+            <a href="/index.html">ABOUT US</a>
+          </li>
+          <li >
+            <a href="/index.html">OUR TEAM</a>
+          </li>
+          <li >
+            <a href="/index.html">VOLUNTEER</a>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+<video id="my-video" class="video" muted loop>
+    <source src="assets/img/wheat_comp.mp4" type="video/mp4">
+</video>
+<div class="block-xs-middle p-b-lg" style="text-align:center">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-md-12">
+          <h1 class="block-title m-b-sm">Developing the future of Indian villages through economic, social & ecological sustainability</h1>
+          <div class="navbar-collapse collapse text-uppercase">
+              <ul class="nav navbar-nav">
+                <li style="background-color:black;opacity:0.6;color:white;margin:10px;">
+                  <a href="/index.html" style="color:white;"><strong>Anvita</strong></a>
+                </li>
+                <li style="background-color:black;opacity:0.6;margin:10px;">
+                  <a href="/index.html" style="color:white;"><strong>Project Hesperidin</strong></a>
+                </li>
+                <li style="background-color:black;opacity:0.6;color:white;margin:10px;">
+                  <a href="/index.html" style="color:white;"><strong>Future Seed</strong></a>
+                </li>
+                <li style="background-color:black;opacity:0.6;color:white;margin:10px;">
+                  <a href="/index.html" style="color:white;"><strong>Suraksha</strong></a>
+                </li>
+                <li style="background-color:black;opacity:0.6;color:white;margin:10px;">
+                  <a href="/index.html" style="color:white;"><strong>Tips4Change</strong> </a></li>
+               <li style="background-color:black;opacity:0.6;color:white;margin:10px;">
+                  <a href="/index.html" style="color:white;"><strong>PMKSY</strong></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    (function() {
+  /**
+   * Video element
+   * @type {HTMLElement}
+   */
+  var video = document.getElementById("my-video");
+
+  /**
+   * Check if video can play, and play it
+   */
+  video.addEventListener( "canplay", function() {
+    video.play();
+  });
+})();
+</script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+  </body>
+</html>
+
