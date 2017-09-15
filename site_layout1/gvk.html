@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Landing Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	    <link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<style>
+		.video {
+			margin: 0;
+			padding: 0;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			z-index: -25;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			-webkit-transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+		  }
+		  #menu{
+			  background-color: black;
+			  
+		  }
+		  #SplButton:hover,#SplButton:active{
+			  border: 1px solid white;
+
+		  }
+		  @media screen and (max-width: 736px) {
+			#menu{width:50%;}
+		    #one.inner{padding-top:100%}
+		}
+		</style>
+		
+	</head>
+	<body class="is-transitioning" style="background-image:url('images/pic02.jpg');">
+			<!-- Wrapper -->
+			<div id="wrapper">
+					
+		           <!-- Header -->
+					<header id="header" style="background:transparent;border:transparent;">
+						<a href="" class="logo"><strong>Grameen Vikas Kendram</strong></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+					<!--Video-->
+					<video id="my-video" class="video" muted loop>
+							<source src="images/Red.mp4" type="video/mp4">
+					</video>
+					<!-- Main -->
+					<div id="main" class="alt" style="text-align:center;border:transparent">
+
+					<!-- One -->
+						<section id="one">
+							<div class="inner" style="padding-top:15%">
+								
+								<h1 style="font-weight:lighter;font-size:1.5em">Developing the future of Indian villages through economic, social & ecological sustainability.</h1>
+								<a href="./projects.html" id="SplButton"class="button special" style="background-color:black;color:white;opacity:0.6">Explore Our Projects</a>
+							</div>
+						</section></div>
+					<!-- Menu -->
+					<nav id="menu">
+							<ul class="links">
+								<li><a href="./gvk.html">Home</a></li>
+								<li><a href="">About Us</a></li>
+								<li><a href="./projects.html">Projects</a></li>
+								<li><a href="">Our Team</a></li>
+								<li><a href="./ContactUs.html">Volunteer</a></li>
+							</ul>
+					</nav>
+		        </div>
+		 <script>
+				(function() {
+				/**
+				* Video element
+				* @type {HTMLElement}
+				*/
+				var video = document.getElementById("my-video");
+			
+				/**
+				* Check if video can play, and play it
+				*/
+				video.addEventListener( "canplay", function() {
+				video.play();
+				});
+			})();
+			</script>
+							
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
